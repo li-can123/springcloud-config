@@ -1,1 +1,11 @@
-ewr
+config:
+  info: "123"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
+server:
+  port: 6001
+spring:
+  application:
+    name: springbootService
